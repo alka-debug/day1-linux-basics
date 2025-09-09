@@ -46,6 +46,6 @@
 
 | Code | Meaning | Output |
 |--------|-----------|----------|
-| `#!/bin/bash backed_up=0 for file in ~/linux/*; do  cp -u  "$file"  ~/linux/backup; ((backed_up++)) done echo "Files backed up: $backed_up"` | This finds the file in given path and copies updated file into respective path while counting the backed up files. | ```Bash $ Files backed up: 6``` |
-| `#!/bin/bash grep -c "error" /var/log/*.log  awk -F: '$2>0'` | This finds the .log file with given pattern-error while making sure only print out >0. | ```Bash $ File has: 5 errors``` |
-| `#!/bin/bash #pointing the scripts ~/linux/script.sh ~/linux/error_count.sh #capturing output to report file result=$(./script.sh) echo "Backed up completed: $result " >> report.txt result=$(./error_count.sh) echo "File has: $result  errors" >> report.txt` | This code runs both scripts and summaried the outout in the report file | ```Bash $ files backed up: 6 Error files: 5```
+| ```#!/bin/bash backed_up=0 for file in ~/linux/*; do  cp -u  "$file"  ~/linux/backup; ((backed_up++)) done echo "Files backed up: $backed_up"``` | This finds the file in given path and copies updated file into respective path while counting the backed up files. | ```Bash $ Files backed up: 6``` |
+| ```#!/bin/bash grep -c "error" /var/log/*.log  awk -F: '$2>0'``` | This finds the .log file with given pattern-error while making sure only print out >0. | ```Bash $ File has: 5 errors``` |
+| ```#!/bin/bash #pointing the scripts ~/linux/script.sh ~/linux/error_count.sh #capturing output to report file result=$(./script.sh) echo "Backed up completed: $result " >> report.txt result=$(./error_count.sh) echo "File has: $result  errors" >> report.txt``` | This code runs both scripts and summaried the outout in the report file | ```Bash $ files backed up: 6 Error files: 5```
