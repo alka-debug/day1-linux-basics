@@ -1,0 +1,3 @@
+
+Backed up completed: Files backed up: 6 backed up
+File has: /var/log/bootstrap.log:5  errors
