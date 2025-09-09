@@ -64,8 +64,14 @@ By the end of the day, you should be comfortable performing basic admin tasks in
 ---
 # Week 1- Day 2: Bash scripting
 
-## 1. Writing script for backing up files in a folder
+## Writing script for backing up files in a folder, Finding error logs, summarising outout of both script in a file.
 
-| *Code* | *Meaning* | *Output* |
+| Code | Meaning | Output |
 |--------|-----------|----------|
-|
+| `#!/bin/bash
+backed_up=0
+for file in ~/linux/*; do 
+cp -u  "$file"  ~/linux/backup;
+((backed_up++))
+done
+echo "Files backed up: $backed_up"` | This finds the file in given path and copies updated file into respective path while counting the backed up files. | - |
