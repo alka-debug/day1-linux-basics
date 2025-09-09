@@ -62,3 +62,10 @@ By the end of the day, you should be comfortable performing basic admin tasks in
 | `sticky` | Only owner can delete files in dir | ```bash $ chmod 1777 /tmp/shared``` |
 
 ---
+# Week 1- Day 2: Bash scripting
+
+## 1. Writing script for backing up files in a folder
+
+| *Code* | *Meaning* | *Output* |
+|--------|-----------|----------|
+|
