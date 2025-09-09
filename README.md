@@ -68,10 +68,5 @@ By the end of the day, you should be comfortable performing basic admin tasks in
 
 | Code | Meaning | Output |
 |--------|-----------|----------|
-| `#!/bin/bash
-backed_up=0
-for file in ~/linux/*; do 
-cp -u  "$file"  ~/linux/backup;
-((backed_up++))
-done
-echo "Files backed up: $backed_up"` | This finds the file in given path and copies updated file into respective path while counting the backed up files. | - |
+| `#!/bin/bash backed_up=0 for file in ~/linux/*; do  cp -u  "$file"  ~/linux/backup; ((backed_up++)) done echo "Files backed up: $backed_up"` | This finds the file in given path and copies updated file into respective path while counting the backed up files. | ```Bash $ Files backed up: 6``` |
+| 
