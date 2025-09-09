@@ -62,14 +62,3 @@ By the end of the day, you should be comfortable performing basic admin tasks in
 | `sticky` | Only owner can delete files in dir | ```bash $ chmod 1777 /tmp/shared``` |
 
 ---
-
-## 4. Exercises Completed
-
-1. Created nested directories: `~/projects/cloud/week1`  
-2. Practiced creating, moving, copying, and deleting files  
-3. Added a new user `devuser` and switched to it  
-4. Changed file ownership and permissions (`secret.txt`)  
-5. Searched `.log` files in `/var/log` for `"error"`  
-6. Practiced sticky bit in `/tmp/shared`
-
----
